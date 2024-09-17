@@ -1,0 +1,39 @@
+header {
+    background-color: rgb(213, 248, 236);
+}
+
+h1 {
+   color: rgb(0, 0, 0); 
+/* font-weight: bolder;*/
+/* font-style: italic;*/
+line-height: 100%;
+padding: 20px;
+/*text-align: center;*/
+/*text-align: right;*/
+/*text-align: left;*/
+text-align: justify;
+}
+
+h2 {
+    color: rgb(12, 12, 14); 
+    /* font-weight: bolder;*/
+    /* font-style: italic;*/
+    line-height: 100%;
+    padding: 20px;
+    /*text-align: center;*/
+    /*text-align: right;*/
+    /*text-align: left;*/
+    text-align: justify;  
+}
+ul{
+    color: rgb(0, 0, 0);
+}
+img {
+    width: 500px;
+}
+img, h2 {
+    display: block;
+}
+menu-itens{
+    color: ghostwhite;
+}
