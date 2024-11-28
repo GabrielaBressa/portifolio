@@ -1,32 +1,38 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifolio</title>
-<link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-<header>
-    <div class="imagem1">
-        <img src="/portifolio2/image/Logotipo_para_desenvolvedor_de_sistemas.png" alt="minha logo">
-    </div>
-    <br><br>
-    <h1>Bem vindo!</h1>
-    <p>Ao meu Portfólio, Este espaço foi criado para que você possa conhecer um pouco mais sobre mim e meu trabalho.
-    </p>
-    <br><br><br><br><br>
-    <footer>
-    <h2>Meu nome é: Gabriela Bressa</h2>
-    <br>
-    <a href="/portifolio2/quemsoueu.html"><button>Quem sou eu ?</button></a>
-    <a href="https://github.com/GabrielaBressa"><button>Projetos</button></a>
-    <a href="contato.html"><button>Contato</button></a>
-    <br>
-</footer>
-</header>
+    <header>
+        <div class="imagem1">
+            <img src="/portifolio2/image/Logotipo_para_desenvolvedor_de_sistemas.png" alt="minha logo">
+        </div>
+        <br><br>
+        <h1 onclick="mudarCorDeFundo()">Bem-vindo!</h1> <!-- Ao clicar, a cor de fundo muda -->
+        <p>Ao meu Portfólio, Este espaço foi criado para que você possa conhecer um pouco mais sobre mim e meu trabalho.</p>
+        <br><br><br><br><br>
+        <footer>
+            <h2>Meu nome é: Gabriela Bressa</h2>
+            <br>
+            <a href="/portifolio2/quemsoueu.html">
+                <button onmouseover="alterarEstiloBotao(this)" onmouseout="restaurarEstiloBotao(this)">Quem sou eu ?</button>
+            </a>
+            <a href="https://github.com/GabrielaBressa">
+                <button onmouseover="alterarEstiloBotao(this)" onmouseout="restaurarEstiloBotao(this)">Projetos</button>
+            </a>
+            <a href="contato.html">
+                <button onmouseover="alterarEstiloBotao(this)" onmouseout="restaurarEstiloBotao(this)">Contato</button>
+            </a>
+            <br>
+        </footer>
+    </header>
 </body>
 
 </html>
